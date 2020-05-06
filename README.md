@@ -5,20 +5,20 @@ A Gomoku Omok Game for SENG 513, where
   The player to first achieve this wins the game!
 
 - Built with HTML, CSS, Javascript, Bootstrap, JQuery, 
-NodeJS, express, and socket.io.  
+NodeJS, Express, and Socket.io.  
 
 - Program uses white and black pieces statically, 
-lets the player choose between 3 color themes and 
-to enter a new username, stores themes and username
+lets the player to have the option of choosing 3 color themes and 
+a new user name. The users selected color theme and username are stored 
 in cookies.
 
 - Note: Small bug where first row buttons are hard to click
-and unpressable on corners. I have no idea how to fix it. 
+and unpressable on corners, because of the placement of the Bootstrap buttons.
 Random join may also be buggy but tested and should work. 
 
 Instructions: 
 - Download the necessary packages with npm install:
-must install socket.io and express to run.
+must install Socket.io and Express to run.
 
 - cd into gomoku directory, and run node server.js to start the server side  
 
